@@ -1,10 +1,15 @@
 # monsterous-limited-boilerplate
 Boilerplate for React, Redux, Sass and React-Router. Other packages may be added later on. Basis for this boilerplate provided create-react-app, however there was a need to update the packages a few major versions up, and restructuralize the project.
 
+First install nodeJS 12.6+
 ```js
 npm install
 npm start
 ```
+
+## Configs
+
+Configs are hidden from the developer in `react-scripts`. In order to change the configs, you need to run `npm run eject` first, which will remove configs from the mentioned package and move them into project folder. This is an operation you cannot undo, so be careful with this command.
 
 ## Routing & React-Loadable
 
